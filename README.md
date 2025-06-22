@@ -1,12 +1,23 @@
-# React + Vite
+# AssignPro 🗂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AssignPro** is a task management system built with React that allows admins to assign tasks to employees, and lets employees manage their work efficiently. This project demonstrates core concepts like context API, component-based architecture, and state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 🔐 Authentication (Mocked)
+- Login with email and password (no backend)
+- Role-based view: Admin Dashboard / Employee Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👤 Admin Dashboard
+- Create tasks with title, description, date, and category
+- Assign tasks to employees
+- View all employee task stats (new, active, completed, failed)
+
+### 👷 Employee Dashboard
+- View assigned tasks categorized by status
+- Mark tasks as **Complete** or **Failed**
+- Accept or reject new tasks
+
+
